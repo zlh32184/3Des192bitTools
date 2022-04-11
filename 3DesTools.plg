@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: 3DesTools - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Release/3DesTools.res" /d "NDEBUG" /d "_AFXDLL" "E:\公司\Company\公司通用程序\函数库\3DES加解密\3DesTools\3DesTools.rc"" 
+Creating temporary file "C:\Users\LinQ\AppData\Local\Temp\RSP9188.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/3DesTools.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\公司\Company\公司通用程序\函数库\3DES加解密\3DesTools\3DesTools.cpp"
+"E:\公司\Company\公司通用程序\函数库\3DES加解密\3DesTools\3DesToolsDlg.cpp"
+"E:\公司\Company\公司通用程序\函数库\3DES加解密\3DesTools\StringDes.cpp"
+]
+Creating command line "cl.exe @C:\Users\LinQ\AppData\Local\Temp\RSP9188.tmp" 
+Creating temporary file "C:\Users\LinQ\AppData\Local\Temp\RSP9189.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/3DesTools.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\公司\Company\公司通用程序\函数库\3DES加解密\3DesTools\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\LinQ\AppData\Local\Temp\RSP9189.tmp" 
+Creating temporary file "C:\Users\LinQ\AppData\Local\Temp\RSP918A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/3DesTools.pdb" /machine:I386 /out:"Release/3DesTools.exe" 
+".\Release\3DesTools.obj"
+".\Release\3DesToolsDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringDes.obj"
+".\Release\3DesTools.res"
+]
+Creating command line "link.exe @C:\Users\LinQ\AppData\Local\Temp\RSP918A.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+3DesTools.cpp
+3DesToolsDlg.cpp
+StringDes.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+3DesTools.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
